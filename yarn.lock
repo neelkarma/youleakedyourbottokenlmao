@@ -856,5 +856,7 @@ typescript@^4.4.2:
     inquirer: ^8.1.2
     ts-node: ^10.2.1
     typescript: ^4.4.2
+  bin:
+    youleakedyourbottokenlmao: ./build/index.js
   languageName: unknown
   linkType: soft

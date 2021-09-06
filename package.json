@@ -9,16 +9,8 @@
   "main": "./build/index.js",
   "author": "chickensalt",
   "license": "MIT",
-  "bin": {
-    "youleakedyourbottokenlmao": "./build/index.js"
-  },
   "scripts": {
-    "dev": "ts-node .",
-    "build": "tsc",
-    "start": "node ./build/index.js"
-  },
-  "engines": {
-    "node": ">=16.6.0"
+    "start": "ts-node .",
   },
   "dependencies": {
     "discord.js": "^13.1.0",

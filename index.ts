@@ -73,5 +73,5 @@ let answers: any;
     setInterval(() => channel.send(answers.message), answers.interval);
   });
 
-  client.login(answers.token);
+  client.login(answers.token).catch(() => console.log("The token is invalid."));
 })();

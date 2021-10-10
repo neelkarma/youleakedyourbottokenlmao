@@ -6,11 +6,10 @@
     "type": "git",
     "url": "github:neelkarma/youleakedyourbottokenlmao"
   },
-  "main": "./build/index.js",
   "author": "chickensalt",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node .",
+    "start": "ts-node ."
   },
   "dependencies": {
     "discord.js": "^13.1.0",
